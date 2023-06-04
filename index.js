@@ -31,7 +31,7 @@ const server = app.listen(process.env.PORT, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://647c967972842a0008b93037--cute-kringle-4eb51b.netlify.app",
     credentials: true,
   },
 });
